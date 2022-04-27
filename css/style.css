@@ -8,12 +8,23 @@
 html, body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 15px;
 }
 
 #title {
   background-color: #ff4c68;
   height: 100vh;
   overflow: hidden;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 15% 7% !important;
 }
 
 #landingPage {
@@ -52,7 +63,7 @@ html, body {
 }
 
 .container-fluid {
-  padding: 3% 15% 15% 7% !important;
+  padding: 7% 15%!important;
 }
 
 .iphoneImg {
@@ -63,19 +74,12 @@ html, body {
 
 /* Features Section */
 #features {
-  padding: 7% 15%;
   background-color: white;
   position: relative;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
-}
-
-p {
-  color: #8f8f8f;
-  font-size: 15px;
 }
 
 .icon {
@@ -90,7 +94,6 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #ffffff;
 }
@@ -108,15 +111,10 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 /* Press Section */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -129,7 +127,6 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
@@ -141,8 +138,6 @@ p {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
 
 .cta {
@@ -153,11 +148,6 @@ p {
 }
 
 /* Footer Section */
-
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
 
 .social-icon {
   margin: 20px 10px;
