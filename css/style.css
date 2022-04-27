@@ -7,6 +7,7 @@
 
 html, body {
   overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #title {
@@ -135,6 +136,32 @@ p {
   padding: 3% 2%;
 }
 
+/*Call to Action  */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
